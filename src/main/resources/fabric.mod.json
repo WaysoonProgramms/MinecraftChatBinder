@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "chat_binder",
+  "version": "${version}",
+
+  "name": "Minecraft Chat Binder",
+  "description": "",
+  "authors": [],
+  "contact": {},
+
+  "license": "Apache-2.0",
+  "icon": "assets/chat_binder/icon.png",
+
+  "environment": "client",
+  "entrypoints": {},
+
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+        "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
