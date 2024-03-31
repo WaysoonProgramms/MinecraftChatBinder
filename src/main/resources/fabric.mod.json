@@ -2,22 +2,25 @@
   "schemaVersion": 1,
   "id": "chat_binder",
   "version": "${version}",
-
   "name": "Minecraft Chat Binder",
   "description": "",
   "authors": [],
-  "contact": {},
-
+  "contact": {
+    "repo": "https://github.com/WaysoonProgramms/MinecraftChatBinder"
+  },
   "license": "Apache-2.0",
-  "icon": "assets/chat_binder/icon.png",
-
   "environment": "client",
-  "entrypoints": {},
-
-
+  "entrypoints": {
+    "client": [
+      "ru.waysoonprogramms.chat_binder.client.MinecraftChatBinderClient"
+    ],
+    "main": [
+      "ru.waysoonprogramms.chat_binder.MinecraftChatBinder"
+    ]
+  },
   "depends": {
     "fabricloader": ">=${loader_version}",
-        "fabric": "*",
+    "fabric": "*",
     "minecraft": "${minecraft_version}"
   }
 }
