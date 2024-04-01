@@ -2,9 +2,10 @@
   "schemaVersion": 1,
   "id": "chat_binder",
   "version": "${version}",
-  "name": "Minecraft Chat Binder",
-  "description": "",
-  "authors": [],
+  "name": "Chat Binder",
+  "description": "Convenient macros for chat",
+  "logo": "assets/chat_binder/icon.png",
+  "authors": ["Waysoon_"],
   "contact": {
     "repo": "https://github.com/WaysoonProgramms/MinecraftChatBinder"
   },
